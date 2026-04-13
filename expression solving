@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,u,v,x,z,y,i,j,k;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    cin>>u;
+    cin>>v;
+    cin>>i;
+    cin>>j;
+    cin>>k;
+    x=a+b*5/4+c%3*5;
+    cout<<"x = "<<x<<endl;
+    if(u>v)
+    {
+        y=u;
+        cout<<"y = "<<y<<endl;
+    }
+    else
+    {
+        cout<<"y = "<<v<<endl;
+    }
+    z=++i&&++j&&++k;
+    cout<<"z = "<<z<<endl;
+    }// You are using GCC
