@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y;
+    cin>>x>>y;
+    while(y>=x)
+    {
+        cout<<"All positions change in year"<<x;
+        x=x+60;
+    }
+}
