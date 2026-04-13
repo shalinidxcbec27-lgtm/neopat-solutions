@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=0,s,n;
+    cin>>s>>n;
+    while(n!=0)
+    {
+        if((a*a)>n)
+        {
+            a--;
+        }
+        a++;
+    
+        a=a*a*s*s;
+        cout<<"Area of the largest possible square is"<<a<<"sqcms.";
+    }
+}
