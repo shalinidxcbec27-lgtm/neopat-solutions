@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    char c;
+    cin>>n;
+    cin>>c;
+    if(n>1||n<=9)
+    {
+        if(c=='y')
+        {
+            cout<<n+5;
+        }
+        else if(c=='n'){
+            cout<<n;
+        }
+    }
+    else if(n>10)
+    {
+       cout<<"Invalid Input";
+    }
+}
